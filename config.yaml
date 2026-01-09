@@ -1,0 +1,13 @@
+app:
+  name: "url-shortener"
+  version: "v1.0.0"
+
+databases:
+  shorten:
+    host: "SHORTEN_HOST"
+    port: "SHORTEN_PORT"
+    user: "SHORTEN_USER"
+    password: "SHORTEN_PASSWORD"
+
+http:
+  port: ":8080"
