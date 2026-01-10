@@ -53,7 +53,7 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ secrets.REGISTRY_NAMESPACE }}/shortener:latest
+          tags: ${{ secrets.REGISTRY_NAME }}/shortener:latest
           platforms: linux/amd64
         
   deploy:
